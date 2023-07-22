@@ -1,0 +1,137 @@
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 9.4%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+}
+
+#hleft{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hleft img{
+    height: 60px;
+    width: 70px;
+}
+
+#hmiddle{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+#hright{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hright img{
+    height: 30px;
+    width: 50px;
+}
+
+.navbar{
+    height: 4.6%;
+    width: 100%;
+    /* background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%); */
+    background-color: purple
+}
+
+.navbar nav{
+    height: 100%;
+    width: 68%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+.navbarItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.navbarItems li{
+    list-style: none;
+}
+.navbarItems li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.navbarItems li a:hover{
+    color:black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.main{
+    height: 86%;
+    width: 100%;
+    background-image: -webkit-linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    height:50%;
+    width:25%;
+    border: 2px solid rgb(78, 26, 26);
+    transition: all;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+    border-radius: 25px;
+    background-color: purple;
+    color: white;
+    box-shadow: 15px 15px black;
+}
+
+.box:hover{
+    transform: scale(1.2);
+}
+
+.heading {
+    font-size: 2.0rem;
+}
+
+.content{
+    font-size: 1.5rem;
+}
+
+#phoneContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
